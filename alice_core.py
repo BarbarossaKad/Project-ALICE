@@ -549,6 +549,34 @@ Log Conversations: {self.config.log_conversations}"""
         else:
             return f"Unknown command: {command}. Type /help for available commands."
 
+        elif cmd == '/stop':
+    self.stop()
+    return "ALICE stopped completely. Resources freed for gaming! Type 'python3 alice_core.py' to restart."
+
+        elif cmd == '/gaming':
+    self.model.unload_model()
+    return "🎮 Gaming mode activated! Model unloaded, resources freed. Type '/resume' when done gaming."
+
+        elif cmd == '/resume':
+    if not hasattr(self.model, 'current_model') or not self.model.current_model:
+        self.model.load_model()
+        return "🤖 ALICE resumed! Welcome back from gaming."
+        else:
+        return "ALICE is already active."
+
+        elif cmd == '/resources':
+    try:
+        import psutil
+        cpu = psutil.cpu_percent()
+        memory = psutil.virtual_memory()
+        status = "🔧 System Resources:\n"
+        status += f"CPU: {cpu}%\n"
+        status += f"RAM: {memory.percent}% ({memory.used // (1024**3):.1f}GB / {memory.total // (1024**3):.1f}GB)\n"
+        status += f"Model loaded: {'Yes' if hasattr(self.model, 'current_model') and self.model.current_model else 'No'}"
+        return status
+    except ImportError:
+        return "Resource monitoring requires psutil. Install with: pip install psutil"
+
 # Console Interface
 def console_interface():
     """Simple console interface for ALICE"""
