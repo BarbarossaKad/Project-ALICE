@@ -7,8 +7,6 @@
 
 A privacy-focused, locally-hosted AI companion system with multiple personalities that scales from Raspberry Pi to high-end gaming PCs. ALICE offers different interaction modes while keeping all your conversations and data completely local.
 
-![ALICE Demo](https://via.placeholder.com/800x400/667eea/ffffff?text=ALICE+Web+Interface)
-
 ## ✨ Features
 
 ### 🎭 Multiple AI Personalities
