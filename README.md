@@ -43,7 +43,7 @@ A privacy-focused, locally-hosted AI companion system with multiple personalitie
 
 ### One-Line Install
 ```bash
-git clone https://github.com/yourusername/Project-ALICE.git
+git clone https://github.com/BarbarossaKad/Project-ALICE.git
 cd Project-ALICE
 python alice_setup.py
 ```
@@ -93,7 +93,7 @@ ALICE automatically detects your hardware and recommends optimal models.
 
 ### Automatic Setup (Recommended)
 ```bash
-git clone https://github.com/yourusername/Project-ALICE.git
+git clone https://github.com/BarbarossaKad/Project-ALICE.git
 cd Project-ALICE
 python alice_setup.py
 ```
@@ -108,7 +108,7 @@ The setup script will:
 ### Manual Installation
 ```bash
 # Clone repository
-git clone https://github.com/yourusername/Project-ALICE.git
+git clone https://github.com/BarbarossaKad/Project-ALICE.git
 cd Project-ALICE
 
 # Create virtual environment
@@ -283,16 +283,10 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 📞 Support
 
-- **Issues**: [GitHub Issues](https://github.com/yourusername/Project-ALICE/issues)
-- **Discussions**: [GitHub Discussions](https://github.com/yourusername/Project-ALICE/discussions)
-- **Wiki**: [Project Wiki](https://github.com/yourusername/Project-ALICE/wiki)
+- **Issues**: [GitHub Issues](https://github.com/BarbarossaKad/Project-ALICE/issues)
+- **Discussions**: [GitHub Discussions](https://github.com/BarbarossaKad/Project-ALICE/discussions)
+- **Wiki**: [Project Wiki](https://github.com/BarbarossaKad/Project-ALICE/wiki)
 
 ## ⭐ Star History
 
 If you find ALICE helpful, please consider giving it a star! ⭐
-
----
-
-**Made with ❤️ for privacy-conscious AI enthusiasts**
-
-*"Your AI companion that truly belongs to you"*
