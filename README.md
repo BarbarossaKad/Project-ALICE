@@ -7,13 +7,6 @@
 
 A privacy-focused, locally-hosted AI companion system with multiple personalities that scales from Raspberry Pi to high-end gaming PCs. ALICE offers different interaction modes while keeping all your conversations and data completely local.
 
-## Quick Start
-
-### Console Interface
-```bash
-python start_console.py
-
-## ✨ Features
 
 ### 🎭 Multiple AI Personalities
 - **Assistant Mode**: Professional, helpful responses for productivity
@@ -59,10 +52,9 @@ python alice_setup.py
 # Console interface
 python alice_core.py
 
-# Web interface (recommended)  
-python alice_web_interface.py
-# Then visit http://localhost:7860
-```
+### Console Interface
+```bash
+python start_console.py
 
 ## 📋 Requirements
 
